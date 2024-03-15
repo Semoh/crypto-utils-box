@@ -1,0 +1,41 @@
+{
+  "name": "crypto-utils-box",
+  "version": "0.0.5",
+  "homepage": "https://github.com/Semoh/crypto-utils-box",
+  "description": "A crypto utils which could deal with morse, base64, caesar, md5, etc.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Semoh/crypto-utils-box.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "security",
+    "crypto",
+    "Hash",
+    "Morse",
+    "Base64",
+    "MD5",
+    "SHA-1",
+    "SHA-256",
+    "SHA-512",
+    "RC4",
+    "AES",
+    "DES",
+    "cipher",
+    "CTF"
+  ],
+  "author": "semoh",
+  "license": "ISC",
+  "dependencies": {
+    "cipher-factory": "^0.0.2",
+    "crypto-js": "^4.2.0",
+    "xmorse": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.4.2"
+  }
+}
